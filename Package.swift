@@ -21,11 +21,11 @@ let package = Package(
         .package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "5.0.1")),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.1")),
 
-        .package(url: "https://github.com/horizontalsystems/Checkpoints.git", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/horizontalsystems/HdWalletKit.Swift.git", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/horizontalsystems/HsCryptoKit.Swift.git", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/horizontalsystems/HsExtensions.Swift.git", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/horizontalsystems/HsToolKit.Swift.git", .upToNextMajor(from: "1.0.0")),
+        .package(url: "https://github.com/BoRoZzz/Checkpoints.git", .branch("master")),
+        .package(url: "https://github.com/BoRoZzz/HdWalletKit.git", .branch("main")),
+        .package(url: "https://github.com/BoRoZzz/HsCryptoKit.git", .branch("main")),
+        .package(url: "https://github.com/BoRoZzz/HsExtensions.git", .branch("main")),
+        .package(url: "https://github.com/BoRoZzz/HsToolKit.git", .branch("main")),
     ],
     targets: [
         .target(
@@ -34,10 +34,10 @@ let package = Package(
                 "BigInt", "RxSwift",
                 "Checkpoints",
                 .product(name: "GRDB", package: "GRDB.swift"),
-                .product(name: "HdWalletKit", package: "HdWalletKit.Swift"),
-                .product(name: "HsCryptoKit", package: "HsCryptoKit.Swift"),
-                .product(name: "HsExtensions", package: "HsExtensions.Swift"),
-                .product(name: "HsToolKit", package: "HsToolKit.Swift"),
+                .product(name: "HdWalletKit", package: "HdWalletKit"),
+                .product(name: "HsCryptoKit", package: "HsCryptoKit"),
+                .product(name: "HsExtensions", package: "HsExtensions"),
+                .product(name: "HsToolKit", package: "HsToolKit"),
             ]
         ),
         .testTarget(
