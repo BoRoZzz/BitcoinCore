@@ -5,7 +5,6 @@ import PackageDescription
 let package = Package(
     name: "BitcoinCore",
     platforms: [
-        .iOS(.v13),
         .macOS(.v12),
     ],
     products: [
