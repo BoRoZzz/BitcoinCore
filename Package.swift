@@ -21,8 +21,8 @@ let package = Package(
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.1")),
 
         .package(url: "https://github.com/BoRoZzz/Checkpoints.git", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/BoRoZzz/HdWalletKit.git", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/BoRoZzz/HsCryptoKit.git", .upToNextMajor(from: "1.0.0")),
+        .package(url: "https://github.com/BoRoZzz/HdWalletKit.git", .upToNextMinor(from: "1.0.0")),
+        .package(url: "https://github.com/BoRoZzz/HsCryptoKit.git", .upToNextMinor(from: "1.0.0")),
         .package(url: "https://github.com/BoRoZzz/HsExtensions.git", .upToNextMajor(from: "1.0.0")),
         .package(url: "https://github.com/BoRoZzz/HsToolKit.git", .upToNextMajor(from: "1.0.0")),
     ],
